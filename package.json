@@ -1,0 +1,34 @@
+{
+  "name": "webpack_node_boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Artikodin/webpack_node_boilerplate.git",
+  "author": "Artium <artium.wasse@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "./node_modules/.bin/webpack --watch --config webpack.config.js",
+    "eslint-check": "eslint --print-config . | eslint-config-prettier-check"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "source-map-support": "^0.5.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "nodemon-webpack-plugin": "^3.0.1",
+    "prettier": "1.15.2",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
